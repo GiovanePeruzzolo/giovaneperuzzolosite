@@ -1,0 +1,42 @@
+body {
+    /*
+    background-image: url("");
+    background-size: auto 100vh; largura e altura
+    sempre usar vh e não %
+    height: 100vh;
+    */
+    background: grey;
+    font-family: Arial;
+}
+
+.menu {
+    background-color: white;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: #383838;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+    color: #181818;
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
